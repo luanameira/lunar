@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(205, 226, 245)
+}
+
+
+header {
+    background-color: rgb(49, 114, 172);
+    margin: 0;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+
+header h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 47pt;
+    margin: 0;
+    padding: 20px 20px;
+    border: 20px;
+    align-items: flex-start;
+
+    
+}
+
+header > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80vw;
+    max-width: 1000px;
+}
+
+header div nav{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+header div nav a{
+    display: flex;
+    color: black;
+    margin: 20px 10px;
+    align-items: flex-end;
+    
+}
